@@ -1,61 +1,42 @@
-
 body{
+    background-color: #6a6a6a;
+}
+
+.content{
+    float: left;
+    width: 20vw;
+    height: 20vw;
+    margin: 2vw;
+    border-radius: 2vw;
+    border-style: solid;
+    border-color: #fff;
+    box-shadow: 0 6px 12px 3px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+#left {
     background-color: #a6a6a6;
 }
 
-h1{
-    /* Change the color of the text, background, font size etc. on the h1*/
+#mid {
+    background-color: #ff7d00;
+}
+
+#right {
+    background-color: #a6a6a6;
+}
+
+#textBox{
+    line-height: 5vw;
+    margin: 2vw 26vw;
+}
+
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 8vw;
+    font-weight: 300;
     color: #ff7d00;
-    background-color: #6a6a6a;
     text-align: center;
-    font-weight: normal;
-    font-size: 72px;
-    padding-top: 20px;
-    margin: 72px 36px 0;
 }
 
-img{
-    display: block;
-    margin: 0 auto; /*margin-värdet autocentreras bilden då marginalen automatiskt justeras till lika bred på båda sidor.*/
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-radius: 10% 10% 10% 10%;
-}
-
-.mainText {
-    background-color: #bfbfbf;
-    padding: 12px;
-    margin: 0px 36px;
-    font-size: 18px;
-}
-
-ul.mainText{
-    padding: 0 0 0 36px;
-    padding-bottom: 12px;
-}
-
-table.mainText{
-    border: solid black 2px;
-    font-size: 22px;
-}
-
-th, td{
-    text-align: left;
-    padding: 6px;
-}
-
-a:link {
-    color: #000000;
-}
-
-a:visited {
-    color: #000000;
-}
-
-a:hover {
-    color: #ff7d00; 
-}
-
-a:active {
-    color: #FFFF00;
-}
